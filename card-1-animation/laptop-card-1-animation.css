@@ -1,0 +1,72 @@
+
+/* .section_2 #card-1 .flip .back .card-1-animation {
+    position: absolute;
+    width: 270px;
+    height: 330px;
+    top: 210px;
+    right: 30px;
+    transform: rotate(90deg);
+
+    border: 2px solid black;
+
+    background-image: url("row-01.png");
+    background-size: 1020% auto;
+    background-position:  -20px    /* -2500px */ /* 30px;
+    background-repeat: no-repeat;
+} */
+
+
+
+
+
+
+.section_2 #card-1 .flip .back .card-1-animation {
+    position: absolute;
+    width: 270px;
+    height: 330px;
+    top: 135px;
+    right: 129px;
+    transform: rotate(90deg) scale(0.6);
+
+    background-image: url("row-01.png");
+    background-size: 2970px 270px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+
+    animation:
+        card-1-frames 0.2s steps(10, end) infinite,
+        card-1-rows 2.2s steps(1, start) infinite,
+        card-1-hide 0.5s ease 23.6s forwards;
+}
+
+@keyframes card-1-frames {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2700px 0;
+    }
+}
+
+@keyframes card-1-rows {
+    0%       { background-image: url("row-01.png"); }
+    9.0909%  { background-image: url("row-02.png"); }
+    18.1818% { background-image: url("row-03.png"); }
+    27.2727% { background-image: url("row-04.png"); }
+    36.3636% { background-image: url("row-05.png"); }
+    45.4545% { background-image: url("row-06.png"); }
+    54.5454% { background-image: url("row-07.png"); }
+    63.6363% { background-image: url("row-08.png"); }
+    72.7272% { background-image: url("row-09.png"); }
+    81.8181% { background-image: url("row-10.png"); }
+    90.9090%  { background-image: url("row-11.png"); }
+}
+
+@keyframes card-1-hide {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
