@@ -1,0 +1,766 @@
+
+.section_1 
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #e12516;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.section_1
+{
+    --color: gray;
+    background-image: linear-gradient( 0deg , transparent 24% , var(--color) 25% , var(--color) 26% ,  transparent 27% ,  transparent 74% , var(--color) 75% , var(--color) 76% , transparent 77% ,  transparent ) , 
+    linear-gradient( 90deg , transparent 24% , var(--color) 25% , var(--color) 26% ,  transparent 27% ,  transparent 74% , var(--color) 75% , var(--color) 76% , transparent 77% ,  transparent );
+    
+    background-size: 100px 100px ;
+}
+
+.section_1-content
+{
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    top: -140px;
+    transform: rotate(-90deg) scale(1.5);
+}
+
+.section_1 .circle_1
+{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top:  -350px;
+    left:  200px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0;
+    
+    animation: circle-1 1s ease-in-out forwards ;
+        
+}
+
+ @keyframes circle-1
+{
+    from
+    {
+        width: 50px;
+        height: 50px;
+        top: 350px;
+        left: 200px;
+        opacity: 1;
+    }
+    to
+    {
+        width: 250px;
+        height: 250px;
+        top: 200px;
+        left: 100px;
+        opacity: 1;
+    }
+}
+ 
+.section_1 .circle_2
+{
+    position: relative;
+    width: 280px;
+    height: 280px;
+    top: -65px;
+    left: 82px;
+    border: 2px solid  white ;
+    border-radius: 50%;
+    opacity: 0;
+    z-index: 0;
+    
+    
+    animation: circle-2 1s ease-in-out forwards ;
+           
+}
+
+ @keyframes circle-2
+{
+    from
+    {
+        width: 80px;
+        height: 80px;
+        top: 280px;
+        left: 180px;
+        opacity: 1;
+    }
+    to
+    {
+        width: 280px;
+        height: 280px;
+        top: -65px;
+        left: 82px;
+        opacity: 1;
+    }
+}
+
+ .section_1 .name p:nth-of-type(1)
+{
+    position: absolute;    
+    top: 250px;
+    left: 120px;
+    font-family: DUMERO-Rounded;
+    font-size: 150px;
+    color: #53c2df;
+    transform: rotate(90deg) scaley(1.5) scalex(1.2);
+    opacity: 1;
+    
+    animation: name-p-1 1s ease-in-out forwards;
+    
+}
+
+ @keyframes name-p-1
+{
+    0%
+    {
+        opacity: 0;
+    }
+    30%
+    {
+        opacity: 1;
+    }
+    60%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+ 
+ 
+ .section_1 .name p:nth-of-type(2)
+{
+    position: absolute;    
+    top: 250px;
+    left: 120px;
+    font-family: DUMERO-Rounded;
+    font-size: 150px;
+    transform: rotate(90deg) scaley(1.5) scalex(1.2);
+    color: transparent;
+    -webkit-text-stroke: 2px #52c2bf;
+    z-index: 3;
+    
+    animation: name-p-2 1s ease-in-out forwards ;
+    
+} 
+
+@keyframes name-p-2
+{
+    0%
+    {
+        opacity: 0;
+    }
+    30%
+    {
+        opacity: 1;
+    }
+    60%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+
+ .section_1 .nithya img
+{
+    position: relative;
+    width: 400px;
+    height: auto;
+    top: -520px;
+    right: 400px;
+    transform: rotate(90deg);
+    z-index: 5;
+    
+    animation: akshi-img 1s ease-in-out 1s forwards;
+    
+}
+
+@keyframes akshi-img
+{
+    from
+    {
+        right: 400px;
+    }
+    to
+    {
+        right: 10px;
+    }
+}
+ 
+ .section_1 .sun_flower-1 img
+{
+    position:  absolute ;
+    width: 220px;
+    height: auto;
+    left: 50px;
+    top: 300px;
+    z-index: 1;
+    opacity: 0;
+    
+    
+    animation: sun-flower-1 0.5s ease-in-out 2s forwards ;
+    
+}
+
+@keyframes sun-flower-1 
+{
+    from
+    {
+        width: 200px ;
+        opacity: 1;
+    }
+    to
+    {
+        width: 220px;
+        opacity: 1;
+    }
+}
+ 
+ .section_1 .sun_flower-2 img
+{
+    position:  absolute ;
+    width: 220px;
+    height: auto;
+    left: -70px;
+    top: 300px;
+    z-index: 2;
+    opacity: 0;
+    
+    
+    animation: sun-flower-2 0.5s ease-in-out 2s forwards;
+    
+} 
+
+@keyframes sun-flower-2 
+{
+    from
+    {
+        width: 200px ;
+        opacity: 1;
+    }
+    to
+    {
+        width: 220px;
+        opacity: 1;
+    }
+}
+
+
+ .section_1 .sun_flower-3 img
+{
+    position:  absolute ;
+    width: 260px;
+    height: auto;
+    left: -50px;
+    top: 120px;
+    z-index: 2;
+    opacity: 0;
+    
+    
+    animation: sun-flower-2 0.5s ease-in-out 2s forwards ;
+    
+}
+
+@keyframes sun-flower-3 
+{
+    from
+    {
+        width: 200px ;
+        opacity: 1;
+    }
+    to
+    {
+        width: 260px;
+        opacity: 1;
+    }
+}
+
+ 
+ .section_1 .pink_stem_flower img
+{
+    position:  absolute ;
+    width: 170px;
+    height: auto;
+    left: 140px;
+    top: 50px;
+    transform: rotate(90deg);
+    z-index: 1;
+    opacity: 0;
+    
+    animation: pink-stem-flower 0.5s ease-in-out 2s forwards;
+    
+}
+
+@keyframes pink-stem-flower 
+{
+    from
+    {
+        width: 150px ;
+        opacity: 1;
+    }
+    to
+    {
+        width: 170px;
+        opacity: 1;
+    }
+}
+ 
+ .section_1 .pink_flower img
+{
+    position:  absolute ;
+    width: 70px;
+    height: auto;
+    left: 240px;
+    top: 395px;
+    transform: rotate(0deg);
+    z-index:1;
+    opacity: 0;
+    
+    animation: pink-flower 0.5s ease-in-out 2s forwards ;
+ 
+    
+}
+
+@keyframes pink-flower 
+{
+    from
+    {
+        width: 50px ;
+        opacity: 1;
+    }
+    to
+    {
+        width: 70px;
+        opacity: 1;
+    }
+}
+
+ 
+  .section_1 .leaf_1 img
+{
+    position:  absolute ;
+    width: 200px;
+    height: auto;
+    left: 20px;
+    top: 400px;
+    transform: rotate(90deg);
+    z-index:0;
+    opacity: 0;
+    
+    animation: leaf-1 0.5s ease-in-out 2s forwards ;
+    
+}
+
+@keyframes leaf-1 
+{
+    from
+    {
+        width: 180px ;
+        opacity: 1;
+    }
+    to
+    {
+        width: 200px;
+        opacity: 1;
+    }
+}
+ 
+ .section_1 .leaf_2 img
+{
+    position:  absolute ;
+    width: 200px;
+    height: auto;
+    left: -80px;
+    top: 0px;
+    transform: rotate(-80deg);
+    z-index:0;
+    opacity: 0;
+    
+    animation: leaf-2 0.5s ease-in-out 2s forwards;
+    
+}
+ 
+@keyframes leaf-2 
+{
+    from
+    {
+        width: 180px ;
+        opacity: 1;
+    }
+    to
+    {
+        width: 200px;
+        opacity: 1;
+    }
+}
+
+
+
+
+/* section_1-content to move */
+  .section_1-content
+{
+    animation: section-1-content  1.5s ease-in-out 3s forwards;
+}
+
+ @keyframes section-1-content 
+{
+    from
+    {
+        top: -140px;
+    }
+    to
+    {
+        top: -140px;
+    }
+}
+  
+ 
+ .section_1 .wishes p:nth-of-type(1)
+{
+    position:  absolute ;
+    top: 150px;
+    left: 775px;
+    transform: rotate(0deg) scale(0);
+    font-family: Histea-Ballon;
+    font-size: 100px;
+    color: #fe7f99;
+    text-shadow: 8px 8px 0px #000;
+    
+    animation: happy 0.8s ease-out 4s forwards;
+    
+}
+
+ @keyframes happy
+{
+    0%
+    {
+        transform: rotate(0deg) scale(0);
+    }
+    70%
+    {
+        transform: rotate(0deg) scale(1.15);
+    }
+    100%
+    {
+        transform: rotate(0deg) scale(1);
+    }
+} 
+
+ 
+
+
+ .section_1 .wishes p:nth-of-type(2)
+{
+    position:  absolute ;
+    top: 290px;
+    left: 870px;
+    transform: rotate(0deg) scaley(1.5) scale(0);
+    font-family: Histea-Ballon;
+    font-size: 95px;
+    font-weight: 300px;
+    letter-spacing: -2px;
+    color: #f9dc5c ;
+    text-shadow: 8px 8px 0px #000;
+    
+    animation: birthday 0.8s ease-out 4s forwards;
+    
+}
+
+ @keyframes birthday 
+{
+    0%
+    {
+        transform: rotate(0deg) scaley(1.5) scale(0);
+    }
+    70%
+    {
+        transform: rotate(0deg) scaley(1.5) scale(1.15);
+    }
+    100%
+    {
+        transform: rotate(0deg) scaley(1.5) scale(1);
+    }
+}
+
+
+ .section_1 .wishes p:nth-of-type(3)
+{
+    position:  absolute ;
+    top: 410px;
+    left: 950px;
+    transform: rotate(0deg) scale(0);
+    font-family: wildflowers;
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+    word-spacing: -3px;
+    
+    animation: fav 0.8s ease-out 4s forwards;
+    
+}
+
+ @keyframes fav 
+{
+    0%
+    {
+        transform: rotate(0deg) scale(0);
+    }
+    70%
+    {
+        transform: rotate(0deg) scale(1.15);
+    }
+    100%
+    {
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+ 
+.section_1 .butterfly_1 img
+{
+    position:  absolute;
+    width: 60px;
+    height: auto;
+    top: 750px;
+    left: 300px;
+    z-index: 6;
+    
+    filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, 1));
+    
+    animation: butterfly-1 2s ease-in-out forwards , 
+    butterfly-1-1 0.5s ease-in-out 2s forwards , 
+    butterfly-1-2 1s ease-in-out 2.5s forwards ,
+    butterfly-1-3 0.5s ease-in-out 3.5s forwards ,
+    butterfly-1-4 1s ease-in-out 4.5s forwards ,
+    butterfly-1-5 1s ease-in-out 5.5s forwards ,
+    butterfly-1-6 1s ease-in-out 6.5s forwards ,
+    butterfly-1-7 1s ease-in-out 7.5s forwards ,
+    butterfly-1-8 1s ease-in-out 8.5s forwards ;
+     
+} 
+
+@keyframes butterfly-1 
+{
+    0%
+    {
+        transform: translateY(0) ;
+    }
+    70%
+    {
+        transform: translateX(-20px) translateY(-380px) rotate(90deg) ;
+    }
+    100%
+    {
+        transform: translateX(30px) translateY(-380px) rotate(90deg) ;
+    }
+    
+}
+ 
+@keyframes butterfly-1-1
+{
+    from
+    {
+        transform: translateX(30px) translateY(-380px) rotate(90deg) ;
+    }
+    to
+    {
+        transform: translateX(30px) translateY(-380px) rotate(40deg) ;
+    }
+    
+}
+
+@keyframes butterfly-1-2
+{
+    from
+    {
+        transform: translateX(30px) translateY(-380px) rotate(40deg) ;
+    }
+    to
+    {
+        transform: translateX(30px) translateY(-550px) rotate(40deg) ;
+    }
+    
+}
+
+@keyframes butterfly-1-3
+{
+    from
+    {
+        transform: translateX(30px) translateY(-550px) rotate(40deg) ;
+    }
+    to
+    {
+        transform: translateX(30px) translateY(-550px) rotate(-25deg) ;
+    }
+    
+}
+
+@keyframes butterfly-1-4
+{
+    from
+    {
+        transform: translateX(30px) translateY(-550px) rotate(-25deg) ;
+    }
+    to
+    {
+        transform: translateX(-100px) translateY(-550px) rotate(25deg) ;
+    }
+    
+}
+
+ @keyframes butterfly-1-5
+{
+    from
+    {
+        transform: translateX(-100px) translateY(-550px) rotate(25deg) ;
+    }
+    to
+    {
+        transform: translateX(-100px) translateY(-600px) rotate(-70deg) ;
+    }
+    
+} 
+
+@keyframes butterfly-1-6
+{
+    from
+    {
+        transform: translateX(-100px) translateY(-600px) rotate(-70deg) ;
+    }
+    to
+    {
+        transform: translateX(-200px) translateY(-600px) rotate(-120deg) ;
+    }
+    
+}
+
+@keyframes butterfly-1-7
+{
+    from
+    {
+        transform: translateX(-200px) translateY(-600px) rotate(-120deg) ;
+    }
+    to
+    {
+        transform: translateX(-270px) translateY(-550px) rotate(-120deg) ;
+    }
+    
+}
+
+@keyframes butterfly-1-8
+{
+    from
+    {
+        transform: translateX(-270px) translateY(-550px) rotate(-120deg) ;
+    }
+    to
+    {
+        transform: translateX(-260px) translateY(-550px) rotate(-220deg) ;
+    }
+    
+} 
+
+.section_1 .butterfly_2 img
+{
+    position:  absolute;
+    width: 120px;
+    height: auto;
+    top: 250px;
+    left: -100px;
+    z-index: 6;
+    
+    filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, 1));
+    
+    
+    animation: butterfly-2 6s ease-out forwards;
+ }
+ 
+ @keyframes butterfly-2
+{
+    0%
+    {
+        transform: translateX(0px) translateY(0px) rotate(0deg) ;
+    }
+    10%
+    {
+        transform: translateX(50px) translateY(0px) rotate(0deg) ;
+    }
+    20%
+    {
+        transform: translateX( 100px) translateY( 0px) rotate(0deg) ;
+    }
+    30%
+    {
+        transform: translateX(100px) translateY(50px) rotate(0deg) ;
+    }
+    40%
+    {
+        transform: translateX( 100px) translateY( 100px) rotate(0deg) ;
+    }
+    50%
+    {
+        transform: translateX(150px) translateY(-50px) rotate(0deg) ;
+    }
+    60%
+    {
+        transform: translateX( 200px) translateY( -100px) rotate(0deg) ;
+    }
+    70%
+    {
+        transform: translateX(250px) translateY(50px) rotate(0deg) ;
+    }
+    80%
+    {
+        transform: translateX( 300px) translateY( 100px) rotate(0deg) ;
+    }
+    90%
+    {
+        transform: translateX(350px) translateY(-135px) rotate(0deg) ;
+    }
+    100%
+    {
+        transform: translateX( 400px) translateY( -280px) rotate(0deg) ;
+    }
+}
+
+
+.section_1 .butterfly_3 img
+{
+    position:  absolute;
+    width: 140px;
+    height: auto;
+    left: 1250px;
+    top: 160px;
+    
+    
+    filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, 1));
+    
+    
+    animation: butterfly-3 1s ease-out 4s forwards;
+ }
+ 
+ 
+ @keyframes butterfly-3
+ {
+     from
+     {
+         left: 1250px;
+     }
+     to
+     {
+         left: 1070px;
+     }
+ }

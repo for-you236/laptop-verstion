@@ -1,0 +1,538 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body::-webkit-scrollbar ,
+html::-webkit-scrollbar
+{
+    display: none;
+}
+
+.page
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    background-color: #e12516;
+    /* border: 5px solid black; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+.page::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+/* hide all the section */
+
+.page.section-hide .section_1 ,
+.page.section-hide .section_2 ,
+.page.section-hide .section_3 ,
+.page.section-hide .section_4 ,
+.page.section-hide .section_5 
+{
+    display: none !important; 
+}
+
+
+
+
+
+        /* login page */
+
+.login-page 
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #ced3d6;
+    flex-shrink: 0 ;
+    overflow: hidden;
+    background-image: url("img/login-page-bg.jpg");
+    background-size: 100% auto;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    /* border: 5px solid black; */
+}
+
+/* .login-page 
+{
+    --color: gray;
+    background-image: linear-gradient( 0deg , transparent 24% , var(--color) 25% , var(--color) 26% ,  transparent 27% ,  transparent 74% , var(--color) 75% , var(--color) 76% , transparent 77% ,  transparent ) , 
+    linear-gradient( 90deg , transparent 24% , var(--color) 25% , var(--color) 26% ,  transparent 27% ,  transparent 74% , var(--color) 75% , var(--color) 76% , transparent 77% ,  transparent );
+    
+    background-size: 100px 100px ;
+}
+ */
+
+
+
+.login-page img
+{
+    position: absolute;
+    width: 1000px;
+    height: auto;
+    left: 285px ;
+    top: -30px;
+    transform: rotate(0deg);
+    pointer-events: none;
+    z-index: 2;
+}
+
+
+.login-page .filim-tape
+{
+    position: relative;
+    width: 100%;
+    height: 240px;
+    left:  0px ;
+    top: 50px;
+    background-image: url("img/system-tape.png");
+    background-size: 100% 205%;
+    background-position: -10px -124px;
+    background-color: white;
+    transform: rotate(0deg) scale(1.1);
+    z-index: 1;
+    /* border: 3px solid blue; */ 
+    
+}
+.login-page .filim-tape .filim-tape-content
+{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* animation: moveleft 20s linear infinite; */
+    z-index: 2;
+    /* border: 3px solid red; */ 
+    top: 20px;
+    left: 0px;
+}
+
+.login-page .filim-tape .filim-tape-content .img-cards
+{
+    position: relative;
+    width: 158px;
+    height: 190px;
+    left: 0px;
+    top: 5px;
+    flex-shrink: 0; 
+    z-index: 2;
+    animation: moveleft 20s linear infinite;
+    /* border: 1px solid blue;  */
+}
+
+
+.login-page .filim-tape .filim-tape-content #img-card-1
+{
+    overflow: hidden;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-1 img
+{
+    position: relative;
+    width: 400px;
+    height: auto;
+    top: -130px;
+    left: -130px;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-2
+{
+    overflow: hidden;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-2 img
+{
+    position: relative;
+    width: 300px;
+    height: auto;
+    top: -120px;
+    left: -70px;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-3
+{
+    overflow: hidden;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-3 img
+{
+    position: relative;
+    width: 300px;
+    height: auto;
+    top: -150px;
+    left: -70px;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-4
+{
+    overflow: hidden;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-4 img
+{
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: -95px;
+    left: -30px;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-5
+{
+    overflow: hidden;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-5 img
+{
+    position: relative;
+    width: 240px;
+    height: auto;
+    top: -80px;
+    left: -60px;
+}
+
+
+.login-page .filim-tape .filim-tape-content #img-card-6
+{
+    overflow: hidden;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-6 img
+{
+    position: relative;
+    width: 500px;
+    height: auto;
+    top: -460px;
+    left: -150px;
+}
+
+
+.login-page .filim-tape .filim-tape-content #img-card-7
+{
+    overflow: hidden;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-7 img
+{
+    position: relative;
+    width: 230px;
+    height: auto;
+    top: -80px;
+    left: -30px;
+}
+
+
+.login-page .filim-tape .filim-tape-content #img-card-8
+{
+    overflow: hidden;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-8 img
+{
+    position: relative;
+    width: 160px;
+    height: auto;
+    top: -0px;
+    left: 0px;
+}
+
+
+.login-page .filim-tape .filim-tape-content #img-card-9
+{
+    overflow: hidden;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-9 img
+{
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: -90px;
+    left: -20px;
+}
+
+
+.login-page .filim-tape .filim-tape-content #img-card-10
+{
+    overflow: hidden;
+}
+
+.login-page .filim-tape .filim-tape-content #img-card-10 img
+{
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: -50px;
+    left: -0px;
+}
+
+
+@keyframes moveleft 
+{
+    from
+    {
+        transform: translatex(0);
+    }
+    to
+    {
+        
+        transform: translatex(-1680px);
+    }
+} 
+ 
+
+.login-page .filim-tape:active .filim-tape-content .img-cards
+{
+    animation-play-state: paused !important;
+    filter: grayscale(1);
+}
+
+.login-page .filim-tape .filim-tape-content .img-cards:hover
+{
+    filter: grayscale(0);
+}
+
+
+
+.login-page .big-img-cards
+{
+    
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    top: 50px;
+    left: 970px;
+    display: none; 
+    z-index: 5;
+    overflow: hidden; 
+    box-shadow: 0 5px 15px black;
+    border-radius: 20px;
+    border: 1px solid black;
+} 
+
+/* .login-page #big-img-card-2
+{
+    display: block;
+} */
+ 
+.login-page #big-img-card-1 img , 
+.login-page #big-img-card-2 img , 
+.login-page #big-img-card-3 img , 
+.login-page #big-img-card-4 img , 
+.login-page #big-img-card-5 img , 
+.login-page #big-img-card-6 img ,
+.login-page #big-img-card-7 img ,
+.login-page #big-img-card-8 img ,
+.login-page #big-img-card-9 img ,
+.login-page #big-img-card-10 img 
+{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: -200px;
+    left: -200px;
+       
+}
+
+.login-page #big-img-card-2 img 
+{
+    left: -200px;
+    top: -270px;
+    
+}
+.login-page #big-img-card-3 img 
+{
+    left: -150px;
+    top: -310px;
+}
+
+.login-page #big-img-card-4 img 
+{
+    width: 500px;
+    top: -250px;
+    left: -110px;
+}
+
+.login-page #big-img-card-5 img
+{
+    width: 400px;
+    left: -100px;
+    top: -150px;
+}
+
+.login-page #big-img-card-6 img
+{
+    width: 700px;
+    top: -650px;
+    left: -200px;    
+}
+
+.login-page #big-img-card-7 img
+{
+    width: 400px;
+    left: -50px;
+    top: -150px;
+}
+
+.login-page #big-img-card-8 img
+{
+    width: 250px;
+    left: -0px;
+    top: -0px;
+}
+
+.login-page #big-img-card-9 img
+{
+    width: 300px;
+    left: -30px;
+    top: -120px;
+}
+
+.login-page #big-img-card-10 img
+{
+    width: 250px;
+    top: -60px;
+    left: -0px;
+} 
+
+
+
+
+
+.login-page .filim-tape:has( #img-card-1:hover) ~ #big-img-card-1 ,
+.login-page .filim-tape:has( #img-card-2:hover) ~ #big-img-card-2 ,
+.login-page .filim-tape:has( #img-card-3:hover) ~ #big-img-card-3 ,
+.login-page .filim-tape:has( #img-card-4:hover) ~ #big-img-card-4 ,
+.login-page .filim-tape:has( #img-card-5:hover) ~ #big-img-card-5 ,
+.login-page .filim-tape:has( #img-card-6:hover) ~ #big-img-card-6 ,
+.login-page .filim-tape:has( #img-card-7:hover) ~ #big-img-card-7 ,
+.login-page .filim-tape:has( #img-card-8:hover) ~ #big-img-card-8 ,
+.login-page .filim-tape:has( #img-card-9:hover) ~ #big-img-card-9 ,
+.login-page .filim-tape:has( #img-card-10:hover) ~ #big-img-card-10
+{
+    display: block;
+}
+
+ 
+
+.login-page .lyrical-video
+{
+    position: relative;
+    width: 600px;
+    height: auto;
+    left: 780px;
+    top: -40px;
+    transform: rotate(0deg);
+    mix-blend-mode: multiply; 
+    opacity: 0; 
+    z-index: 1;
+
+}
+ 
+ 
+.login-page .filim-tape:has(.img-cards:hover) ~ .lyrical-video
+{
+    opacity: 1;
+    z-index: 5;
+} 
+  
+
+.login-page .password-screen
+{
+    position: absolute;
+    width: 280px;
+    height: 190px;
+    top: 340px;
+    left: 50px;      
+    z-index: 3;
+    transform: scaleX(1.3) scaleY(1.3);
+    overflow: hidden;
+    /* border: 5px solid red; */
+}
+
+
+.login-page .password-screen #login-password
+{
+    position: relative;
+    width: 90%;
+    height: 35px;
+    left: 8px;
+    border-radius: 10px;
+    border: transparent;
+    /* margin-bottom: 10px; */
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0px;
+    outline: none;
+    padding-bottom: 0px;
+    background-color: transparent;
+    
+}
+
+.login-page .password-screen #login-password::placeholder 
+{
+    color: var(--placeholder-color , white);
+    font-family: Born-Again;
+} 
+
+
+.login-page .password-screen .login-keypad
+{
+    /* display: grid;
+    grid-template-row: repeat(4, 1fr); */
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+
+.login-page .password-screen .login-keypad button
+{
+    height: 35px; 
+    width: 60px;   
+    border: 2px solid black;
+    border-radius: 10px;
+    background: #00b4d8;
+    font-size: 20px;
+    font-weight: bold;
+    flex-shrink: 0;
+    margin: 2px;
+    box-shadow: 3px 3px 0 black;
+}
+
+.login-page .password-screen .login-keypad button:active 
+{
+    transform: translate(4px , 4px);
+    box-shadow: none;
+}
+
+
+.login-page .password-screen .login-keypad .enter-login 
+{
+    height: 35px; 
+    width: 270px;
+    
+}
+
+.login-page .password-screen .login-keypad .enter-login:active 
+{
+    transform: translate(4px 4px);
+    box-shadow: none;
+} 

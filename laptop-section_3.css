@@ -1,0 +1,661 @@
+.section_3
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #e12516;
+    flex-shrink: 0;
+    overflow: hidden;
+    
+}
+
+.section_3
+{
+    --color: gray;
+    background-image: linear-gradient( 0deg , transparent 24% , var(--color) 25% , var(--color) 26% ,  transparent 27% ,  transparent 74% , var(--color) 75% , var(--color) 76% , transparent 77% ,  transparent ) , 
+    linear-gradient( 90deg , transparent 24% , var(--color) 25% , var(--color) 26% ,  transparent 27% ,  transparent 74% , var(--color) 75% , var(--color) 76% , transparent 77% ,  transparent );
+    
+    background-size: 100px 100px ;
+}
+
+
+.section_3 .letter-box
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    direction: rtl;
+    /* border: 5px solid black;  */
+     
+}
+
+.section_3 .letter-box::-webkit-scrollbar
+{
+    display: none;
+} 
+
+
+.section_3 .letter-box .letter
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+    direction: ltr;
+    display: none;
+    /* border: 5px solid blue;  */
+}
+
+ .section_3 .letter-box .letter p
+{
+    position: absolute;
+    margin: 50px;
+    padding: 10px;
+    font-family: Emily-Street;
+    font-size: 15px;
+    line-height:50px;
+    word-spacing: 15px;
+    color: #1f4eaa;
+    /* font-size: 12px; */
+    border: 5px solid black;
+} 
+
+
+.section_3 .letter-box .letter p #lyric-radio 
+{
+    display: none;
+} 
+
+
+.section_3 .letter-box .letter p .click-button 
+{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.section_3 .letter-box .letter p .lyric 
+{
+    position: relative;
+    color: black;
+}
+
+.section_3 .lyric .t
+ {
+    position: relative;
+    visibility: hidden;
+    display: none;
+}
+
+.section_3 .letter p:has(#lyric-radio:checked) .lyric .t 
+{
+    display: inline-block;
+    visibility: hidden;
+        
+}
+
+.section_3 .lyric .t1
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.53s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t2
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 1.43s;
+    animation-fill-mode: forwards;
+    
+} 
+
+.section_3 .lyric .t3
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 2.53s;
+    animation-fill-mode: forwards;
+    
+}
+.section_3 .lyric .t4
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 2.87s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t5
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 3.50s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t6
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 4.40s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t7
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t8
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 5.50s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t9
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 6.10s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t10
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 7.10s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t11
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 7.50s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t12
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 8.10s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t13
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 8.50s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t14
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 9.30s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t15
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t16
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t17
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t18
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 13s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t19
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 14s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t20
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t21
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 16s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t22
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 16.50s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t23
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 17.13s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t24
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 17.50s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t25
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 18.10s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t26
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 18.80s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t27
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 19.10s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t28
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 20.2s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t29
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 21.43s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t30
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 22.7s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t31
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 23.90s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t32
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 24.47s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t33
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 25.17s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t34
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 25.73s;
+    animation-fill-mode: forwards;
+    
+}
+
+.section_3 .lyric .t35
+{
+    
+    animation-name: animatelyrics;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 26.40s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes animatelyrics
+{
+    from
+    {
+        visibility: visible;
+    }
+    to
+    {
+        visibility: visible;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .section_3 .password-box
+{
+    position: absolute;
+    width: 280px;
+    padding: 25px;
+    top: 125px;
+    left: 100px;
+    transform: rotate(0deg) scaley(1.8) scalex(1.8);
+    text-align: center;
+    z-index: 10;
+    
+}
+
+
+
+.section_3 #password
+{
+    width: 190px;
+    height: 30px;
+
+    margin-bottom: 10px;
+
+    font-size: 25px;
+    text-align: center;
+
+    letter-spacing: 8px;
+
+    border: 3px solid black;
+    outline: none;
+}
+
+
+.section_3 .keypad
+{
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 8px;
+
+    width: 210px;
+
+    margin: auto;
+    
+    direction: ltr;
+}
+
+
+.section_3 .keypad button
+{
+    height: 50px;
+    width: 50px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    background: #087b77;
+    color: white;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 0 #cdcca2;
+
+    transition: 
+        transform 0.1s ease,
+        box-shadow 0.1s ease,
+        background 0.2s ease;
+}
+
+
+.section_3 .keypad button:hover
+{
+    background: #09948f;
+}
+
+
+.keypad button:active
+{
+    transform: translateY(5px);
+    box-shadow: 0 0 0 black;
+}
+
+.section_3 .keypad button:active
+{
+    transform: scale(0.95);
+}
+
+
+.section_3 .login-btn
+{
+    width: 210px;
+    height: 50px;
+
+    margin-top: 18px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    background: black;
+    color: white;
+
+    border: 3px solid black;
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 0 #087b77;
+
+    transition:
+        transform 0.1s ease,
+        box-shadow 0.1s ease,
+        background 0.2s ease;
+}
+
+
+.section_3 .login-btn:hover
+{
+    background: #222;
+}
+
+
+.section_3 .login-btn:active
+{
+    transform: translateY(5px);
+    box-shadow: 0 0 0 #087b77;
+}
+
+.section_3 #password-message
+{
+    margin-top: 10px;
+}
+
+
+ .section_3 .letter-content
+{
+    display: none;
+}
+
+.section_3 .instructions
+{
+    position: absolute;
+    width:410px;
+    height: 200px;
+    top: 100px;
+    left: 270px;
+    font-size: 50px;
+    font-family: Story-Maker;
+    color: #cdcca2;
+}
+
+ 

@@ -1,0 +1,59 @@
+.section_4
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #e12516;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.section_4
+{
+    --color: gray;
+    background-image: linear-gradient( 0deg , transparent 24% , var(--color) 25% , var(--color) 26% ,  transparent 27% ,  transparent 74% , var(--color) 75% , var(--color) 76% , transparent 77% ,  transparent ) , 
+    linear-gradient( 90deg , transparent 24% , var(--color) 25% , var(--color) 26% ,  transparent 27% ,  transparent 74% , var(--color) 75% , var(--color) 76% , transparent 77% ,  transparent );
+    
+    background-size: 100px 100px ;
+}
+
+
+
+.section_4 .my-video
+{
+    position: relative;
+    width: 400px;
+    height: 900px;
+    top: -100px;
+    left: 450px;
+    object-fit: cover;
+    cursor: pointer;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;    
+    user-select: none;
+    transform: rotate(-90deg);
+    
+    
+         
+}
+
+.section_4 .my-video:focus
+{
+    outline: none;
+}
+
+
+.section_4 p
+{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    transform: rotate(0deg) scaley(1.6) scalex(1);
+    left: 500px;
+    top: 50px;
+    font-size: 50px;
+    font-family: Blue-Water;
+    color: #6c6c6a;
+    text-shadow: 3px 3px 0px #e8ccd8;
+}
+ 
